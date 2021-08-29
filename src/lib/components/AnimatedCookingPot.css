@@ -1,0 +1,243 @@
+#root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    min-width: 90vw;
+  }
+  
+  #left-steam,
+  #middle-steam,
+  #right-steam {
+    opacity: 0;
+  }
+  
+  #pot__first-flame {
+    animation: firstFire .75s ease-in-out normal infinite;
+  }
+  
+  #pot__second-flame {
+    animation: secondFire .85s ease-in-out normal infinite;
+  }
+  
+  #pot__third-flame {
+    animation: thirdFire .75s ease-in-out normal infinite;
+  }
+  
+  #pot__fourth-flame {
+    animation: fourthFire .95s ease-in-out normal infinite;
+  }
+  
+  svg:hover #pot__lid {
+    animation: lidLift .55s linear alternate infinite;
+  }
+  
+  svg:hover #left-steam {
+    animation: first-steam 1.45s linear alternate infinite;
+  }
+  
+  svg:hover #middle-steam {
+    animation: middle-steam 1.35s linear alternate infinite;
+  }
+  
+  svg:hover #right-steam {
+    animation: second-steam 1.45s linear alternate infinite;
+  }
+  
+  @keyframes first-steam {
+    0% {
+      opacity: 0.2;
+      transform: translateY(-362px) translateX(220px);
+    }
+    25% {
+      opacity: 0.3;
+      transform: translateY(-372px) translateX(220px);
+    }
+    50% {
+      opacity: 0.4;
+      transform: translateY(-382px) translateX(220px);
+    }
+    75% {
+      opacity: 0.6;
+      transform: translateY(-392px) translateX(220px);
+    }
+    100% {
+      opacity: 0.8;
+      transform: translateY(-402px) translateX(220px);
+    }
+  }
+  
+  @keyframes middle-steam {
+    0% {
+      opacity: 0.2;
+      transform: translateY(-372px) translateX(41px);
+    }
+    25% {
+      opacity: 0.3;
+      transform: translateY(-378px) translateX(41px);
+    }
+    50% {
+      opacity: 0.4;
+      transform: translateY(-384px) translateX(41px);
+    }
+    75% {
+      opacity: 0.6;
+      transform: translateY(-390px) translateX(41px);
+    }
+    100% {
+      opacity: 0.8;
+      transform: translateY(-396px) translateX(41px);
+    }
+  }
+  
+  @keyframes second-steam {
+    0% {
+      opacity: 0.2;
+      transform: translateY(-400px) translateX(-193px);
+    }
+    25% {
+      opacity: 0.3;
+      transform: translateY(-408px) translateX(-193px);
+    }
+    50% {
+      opacity: 0.4;
+      transform: translateY(-416px) translateX(-193px);
+    }
+    75% {
+      opacity: 0.6;
+      transform: translateY(-424px) translateX(-193px);
+    }
+    100% {
+      opacity: 0.8;
+      transform: translateY(-432px) translateX(-193px);
+    }
+  }
+  
+  @keyframes lidFly {
+    0% {
+      transform: translateY(0%);
+    }
+    25% {
+      transform: translateY(-25px);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    75% {
+      transform: translateY(-75px);
+    }
+    100% {
+      transform: translateY(-100px);
+    }
+  }
+  
+  @keyframes lidLift {
+    0% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(1%);
+    }
+    50% {
+      transform: translateX(-1%)
+    }
+    75% {
+      transform: translateX(1%);
+    }
+    100% {
+      transform: translateX(-1%);
+    }
+  }
+  
+  @keyframes firstFire {
+    0% {
+      transform: translateY(0%);
+      opacity: 0.8;
+    }
+    25% {
+      transform: translateY(2%);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateY(4%);
+      opacity: 1;
+    }
+    75% {
+      transform: translateY(6%);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(8%);
+      opacity: 0.75;
+    }
+  }
+  
+  @keyframes secondFire {
+    0% {
+      transform: translateY(0%);
+      opacity: 0.8;
+    }
+    25% {
+      transform: translateY(2%);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateY(4%);
+      opacity: 1;
+    }
+    75% {
+      transform: translateY(6%);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(8%);
+      opacity: 0.75;
+    }
+  }
+  
+  @keyframes thirdFire {
+    0% {
+      transform: translateY(0%);
+      opacity: 0.8;
+    }
+    25% {
+      transform: translateY(2%);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateY(4%);
+      opacity: 1;
+    }
+    75% {
+      transform: translateY(6%);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(8%);
+      opacity: 0.75;
+    }
+  }
+  
+  @keyframes fourthFire {
+    0% {
+      transform: translateY(0%);
+      opacity: 0.8;
+    }
+    25% {
+      transform: translateY(2%);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateY(4%);
+      opacity: 1;
+    }
+    75% {
+      transform: translateY(6%);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(8%);
+      opacity: 0.75;
+    }
+  }
