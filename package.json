@@ -1,45 +1,42 @@
 {
-  "name": "biryani-animate",
-  "version": "0.1.1",
-  "description": "This is an animated Component that will fit in to any restaurant website or app!",
+  "name": "biryani-animated-svg",
+  "version": "1.0.0",
+  "description": "This is an animated Component of a cooking pot; this is a great addition to any food app or website!",
   "main": "./lib/AnimatedCookingPot.js",
   "private": false,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzafoy/biryani-animate.git"
+  },
+  "keywords": [
+    "React",
+    "SVG",
+    "Animation",
+    "Component"
+  ],
+  "author": "Hamza Foy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzafoy/biryani-animate/issues"
+  },
+  "homepage": "https://github.com/hamzafoy/biryani-animate#readme",
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.2.1"
+  },
+  "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-stage-0": "^7.8.3",
     "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
     "path": "^0.12.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "webpack",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {}
+  }
 }
