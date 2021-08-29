@@ -27,8 +27,8 @@ While designing a website for a Pakistani client who runs a catering service, I 
 
 ## Installation
 
-1. Run `npm install biryani-animate`
-2. Import using `import AnimatedCookingPot from 'biryani-animate'`
+1. Run `npm install biryani-animate`.
+2. Import using `import AnimatedCookingPot from 'biryani-animate'`.
 3. Enjoy a *starting state* of animated flames underneath the pot & a `:hover` animation of steam rising from the pot as the lid is raised.
 
 
@@ -56,3 +56,4 @@ While designing a website for a Pakistani client who runs a catering service, I 
 
 * Biryani & Halwa, go to any Pakistani establishment and ask for these two, thank me later. 
 * The color scheme is intended to imitate the clay pots that one might find the first dish cooked in.
+* Any issues to report? Please contact me via [Github](https://github.com/hamzafoy/biryani-animate).
