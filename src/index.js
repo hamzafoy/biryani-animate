@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AnimatedCookingPot from './AnimatedCookingPot';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AnimatedCookingPot />
   </React.StrictMode>,
   document.getElementById('root')
 );
