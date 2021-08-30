@@ -1,6 +1,6 @@
 
 
-# `Biryani-Animate`
+# `Biryani-Animated-SVG`
 
 ## Table of Contents
 
@@ -27,8 +27,8 @@ While designing a website for a Pakistani client who runs a catering service, I 
 
 ## Installation
 
-1. Run `npm install biryani-animate`.
-2. Import using `import AnimatedCookingPot from 'biryani-animate'`.
+1. Run `npm install biryani-animated-svg`.
+2. Import using `import AnimatedCookingPot from 'biryani-animated-svg'`.
 3. Enjoy a *starting state* of animated flames underneath the pot & a `:hover` animation of steam rising from the pot as the lid is raised.
 
 
