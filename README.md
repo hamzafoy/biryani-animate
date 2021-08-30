@@ -57,4 +57,4 @@ While designing a website for a Pakistani client who runs a catering service, I 
 * Biryani & Halwa, go to any Pakistani establishment and ask for these two, thank me later. 
 * The color scheme is intended to imitate the clay pots that one might find the first dish cooked in.
 * Any issues to report? Please contact me via [Github](https://github.com/hamzafoy/biryani-animate).
-* Like what you see? Install & use via [npm](https://www.npmjs.com/package/biryani-animate).
+* Like what you see? Install & use via [npm](https://www.npmjs.com/package/biryani-animated-svg).

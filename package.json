@@ -1,6 +1,6 @@
 {
   "name": "biryani-animated-svg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is an animated Component of a cooking pot; this is a great addition to any food app or website!",
   "main": "./lib/AnimatedCookingPot.js",
   "private": false,
